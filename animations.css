@@ -1,0 +1,71 @@
+.buttonIn {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: buttonZoomIn;
+}
+
+@keyframes buttonZoomIn {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.buttonOut {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: buttonZoomOut;
+}
+
+@keyframes buttonZoomOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+.slide__anim--fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes SenderStatus {
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: all;
+    }
+}

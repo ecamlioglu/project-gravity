@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gravity Website</title>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="animations.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+            integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"> <i class="fas fa-user-astronaut"></i> GR4V1TY</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">Anasayfa</a>
+                    </li>
+                    <li class="navbar__menu--subMenu">
+                        <a href="#" class="navbar__links">Teknolojimiz<i class="fas fa-chevron-down" style="margin-left: 10px"></i></a>
+                        <ul class="navbar__menu--subMenu" style="background-color: #000000">
+                            <li class="navbar__item" style="background-color: #000000">
+                                <a href="/" class="navbar__links">Anasayfa</a>
+                            </li>
+                            <li class="navbar__item" style="background-color: #000000">
+                                <a href="/" class="navbar__links">Anasayfa</a>
+                            </li>
+                            <li class="navbar__item" style="background-color: #000000">
+                                <a href="/" class="navbar__links">Anasayfa</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/products.html" class="navbar__links">Ürünlerimiz</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">Hakkımızda</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">Iletisim</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="/" class="button">SignUp</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- TADA -->
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>GR4V1TY</h1>
+                    <h1>Is The New</h1>
+                    <p>to the future...</p>
+                    <button class="main__btn"><a href="/">Get Started</a></button>
+                </div>
+                <div class="main__image--container">
+                    <img src="images/undraw_starry_window_ppm0.svg" alt="pic" id="main__img" />
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <section>
+                <div class="email__container">
+                    <form action="">
+                        <div class="email__group">
+                            <label for="firstName"> Adınızı Giriniz </label>
+                            <input type="text" id="firstName" name="firstName" />
+                        </div>
+                        <div class="email__group">
+                            <label for="surName"> Soyadınızı Giriniz </label>
+                            <input type="text" id="surName" name="surName" />
+                        </div>
+                        <div class="email__group">
+                            <label for="birthday"> Doğum Tarihi Giriniz </label>
+                            <input type="date" id="birthday" name="birthday" />
+                        </div>
+                        <div class="email__group">
+                            <label for="phoneNumber"> Telefon Numarası Giriniz </label>
+                            <input type="number" id="phoneNumber" name="phoneNumber" />
+                        </div>
+                        <div class="email__group">
+                            <label for="email"> Email Adresi Giriniz </label>
+                            <input type="email" id="email" name="email" />
+                        </div>
+                        <div class="email__group">
+                            <label for="msgBox"> Mesajınızı Giriniz </label>
+                            <textarea id="msgBox" name="msgBox"></textarea>
+                        </div>
+                        
+                        <input type="button" onclick="sendEmailFromForm()" value="Gönder!"/>
+                    </form>
+                </div>
+                <div id="SenderStatus" class="success">Success</div>
+                
+            </section>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>About Us</h2>
+                        <a href="/">How it Works</a>
+                        <a href="/">Testimonials</a>
+                        <a href="/">Works</a>
+                        <a href="/">Investments</a>
+                        <a href="/">Terms of Service</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Contact Us</h2>
+                        <a href="/">Contact</a>
+                        <a href="/">Support</a>
+                        <a href="/">Destinations</a>
+                    </div>
+                </div>
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>Social Media</h2>
+                        <a href="/">Facebook</a>
+                        <a href="/">Twitter</a>
+                        <a href="/">Youtube</a>
+                        <a href="/">Instagram</a>
+                        <a href="/">LinkedIN</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><i class="fas fa-user-astronaut"> </i>GR4V1TY</a>
+                    </div>
+                    <p class="website__right">© GR4V1TY 2020. All rights reserved.</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="returnTop" id="return-top-button"><a href="#"></a> <i class="far fa-caret-square-up"></i></button>
+        <script src="app.js"></script>
+        <script src="slider.js"></script>
+        <script src="contact.js"></script>
+    </body>
+</html>
