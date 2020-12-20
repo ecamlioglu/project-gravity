@@ -18,54 +18,50 @@
     </head>
     <body>
         <nav class="navbar">
-            <div class="navbar__container">
-                <a href="/" id="navbar__logo"> <i class="fas fa-user-astronaut"></i> GR4V1TY</a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="/" class="navbar__links">Anasayfa</a>
-                    </li>
-                    <li class="navbar__menu--subMenu">
-                        <a href="#" class="navbar__links">Teknolojimiz<i class="fas fa-chevron-down" style="margin-left: 10px"></i></a>
-                        <ul class="navbar__menu--subMenu" style="background-color: #000000">
-                            <li class="navbar__item" style="background-color: #000000">
-                                <a href="/" class="navbar__links">Anasayfa</a>
-                            </li>
-                            <li class="navbar__item" style="background-color: #000000">
-                                <a href="/" class="navbar__links">Anasayfa</a>
-                            </li>
-                            <li class="navbar__item" style="background-color: #000000">
-                                <a href="/" class="navbar__links">Anasayfa</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="/products.html" class="navbar__links">Ürünlerimiz</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="/" class="navbar__links">Hakkımızda</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="/" class="navbar__links">Iletisim</a>
-                    </li>
-                    <li class="navbar__btn">
-                        <a href="/" class="button">SignUp</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+			<div class="navbar__container">
+				<a href="/" id="navbar__logo"> <i class="fas fa-user-astronaut"></i> GR4V1TY</a>
+				<div class="navbar__toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a href="/" class="navbar__links">Anasayfa</a>
+					</li>
+					<li class="navbar__menu--subMenu">
+						<a href="#" class="navbar__links">Teknolojimiz<i class="fas fa-chevron-down" style="margin-left: 10px;"></i></a>
+						<ul class="navbar__menu--subMenu" style="background-color: #000000;">
+							<li class="navbar__item" style="background-color: #000000;">
+								<a href="/gravity.html" class="navbar__links">Altyapımız</a>
+							</li>
+							<li class="navbar__item" style="background-color: #000000;">
+								<a href="/solutions.html" class="navbar__links">Çözümlerimiz</a>
+							</li>
+							<li class="navbar__item" style="background-color: #000000;">
+								<a href="/security.html" class="navbar__links">Güvenlik</a>
+							</li>
+						</ul>
+					</li>
+					<li class="navbar__item">
+						<a href="/products.html" class="navbar__links">Ürünlerimiz</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/about" class="navbar__links">Hakkımızda</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/contact.html" class="navbar__links">Iletisim</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
         <!-- TADA -->
         <div class="main">
             <div class="main__container">
                 <div class="main__content">
                     <h1>GR4V1TY</h1>
-                    <h1>Is The New</h1>
-                    <p>to the future...</p>
-                    <button class="main__btn"><a href="/">Get Started</a></button>
+					<h2>Yeni Bir Göz</h2>
+					<p>geleceğe...</p>
                 </div>
                 <div class="main__image--container">
                     <img src="images/undraw_starry_window_ppm0.svg" alt="pic" id="main__img" />
@@ -76,28 +72,29 @@
             <section>
                 <div class="email__container">
                     <form action="">
+                        <h3>İletişime Geçin :)</h3>
                         <div class="email__group">
-                            <label for="firstName"> Adınızı Giriniz </label>
+                            <label for="firstName"> Adınız</label>
                             <input type="text" id="firstName" name="firstName" />
                         </div>
                         <div class="email__group">
-                            <label for="surName"> Soyadınızı Giriniz </label>
+                            <label for="surName"> Soyadınız</label>
                             <input type="text" id="surName" name="surName" />
                         </div>
                         <div class="email__group">
-                            <label for="birthday"> Doğum Tarihi Giriniz </label>
+                            <label for="birthday"> Doğum Tarihi</label>
                             <input type="date" id="birthday" name="birthday" />
                         </div>
                         <div class="email__group">
-                            <label for="phoneNumber"> Telefon Numarası Giriniz </label>
+                            <label for="phoneNumber"> Telefon Numarası</label>
                             <input type="number" id="phoneNumber" name="phoneNumber" />
                         </div>
                         <div class="email__group">
-                            <label for="email"> Email Adresi Giriniz </label>
+                            <label for="email"> Email Adresi</label>
                             <input type="email" id="email" name="email" />
                         </div>
                         <div class="email__group">
-                            <label for="msgBox"> Mesajınızı Giriniz </label>
+                            <label for="msgBox"> Mesajınız</label>
                             <textarea id="msgBox" name="msgBox"></textarea>
                         </div>
                         
@@ -166,7 +163,6 @@
         </div>
         <button class="returnTop" id="return-top-button"><a href="#"></a> <i class="far fa-caret-square-up"></i></button>
         <script src="app.js"></script>
-        <script src="slider.js"></script>
         <script src="contact.js"></script>
     </body>
 </html>
