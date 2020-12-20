@@ -808,3 +808,19 @@ section {
         width: 100%;
     }
 }
+
+.video__container {
+    display: flex;
+    background: #131313;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+.video {
+    width: 100%;
+}
+.videoPlayer {
+    width: 100%;
+    max-width: 720px;
+    position: relative;
+}
