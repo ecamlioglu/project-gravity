@@ -368,10 +368,10 @@ html {
     height: 80%;
     width: 80%;
 }
-.slider {
+.slideShow {
     display: none;
 }
-.slider img {
+.slideShow img {
     vertical-align: middle;
 }
 .slide__container {
@@ -474,6 +474,7 @@ section {
 }
 
 .dot {
+    cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
