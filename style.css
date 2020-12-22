@@ -825,3 +825,8 @@ section {
     max-width: 720px;
     position: relative;
 }
+
+object {
+    width: 500px;
+    height: 10000px;
+}
