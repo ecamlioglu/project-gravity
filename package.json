@@ -1,5 +1,27 @@
 {
   "dependencies": {
+    "browserify": "^17.0.0",
+    "markdown-pdf": "^10.0.0",
     "showdown": "^1.9.1"
-  }
+  },
+  "name": "project-gravity",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "markdown-pdf": "^10.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecamlioglu/project-gravity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecamlioglu/project-gravity/issues"
+  },
+  "homepage": "https://github.com/ecamlioglu/project-gravity#readme",
+  "description": ""
 }

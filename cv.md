@@ -1,7 +1,12 @@
-# **Selim Erdem Çamlıoğlu**
-## Software Developer &amp; Game Designer
+### **Selim Erdem Çamlıoğlu**
+<br>
+
+---
+#### Software Developer & Game Designer
 ------------- ------------- 
-**E-Posta:** [secamlioglu@gmail.com](mailto:secamlioglu@gmail.com)
+<br>
+
+**E-Posta:** [secamlioglu@gmail.com](mailto:secamlioglu@gmail.com) 
 
 **Telefon:** 535-082-8685
 
@@ -10,9 +15,11 @@
 **LinkedIn:** [linkedin.com/in/ecamlioglu](http://linkedin.com/in/ecamlioglu)
 
 **GitHub:** [github.com/ecamlioglu](http://github.com/ecamlioglu)
+<br><br>
 ------------- --------------- 
-**Eğitim**
-===
+<br>
+Eğitim
+=
 **Kocaeli Üniversitesi**
 
 Bilişim Sistemleri Mühendisliği – Lisans
@@ -28,8 +35,8 @@ Fizik – Lisans
 Eylül 2020 – Haziran 2022
 
 ---
-
-**Deneyim**
+<br>
+Deneyim
 ===
 Software Engineer
 
@@ -37,7 +44,7 @@ Echonos
 
 Boston - MA
 
-Ekim 2020 - ... 
+**Ekim 2020 - ...**
 
 --- 
 
@@ -45,7 +52,7 @@ Laboratuvar Asistanı,Yazılım Geliştirme Lab.
 
 Kocaeli Üniversitesi
 
-Kasım 2019 – Mart 2020 – Kocaeli, Turkey
+**Kasım 2019 – Mart 2020 – Kocaeli, Turkey**
 
 ---
 
@@ -84,20 +91,23 @@ Yaz Okulu Atölyesi
 Bayrampaşa Bilim Merkezi
 
 **Temmuz – Ağustos 2018 İstanbul, Turkey**
+<br><br>
 
 ---
-
+<br>
 **Yetenekler**
-===
+=
+
 - Takım Yönetimi
 - Proje Geliştirme
 - Takım Çalışması
 - Problem Çözme
 - Fikir Geliştirme
 - 3D Modelleme
+<br><br>
 
 ---
-
+<br>
 **Teknik Yetkinlikler**
 ===
 - **Programlama Dilleri**
@@ -155,8 +165,10 @@ Bayrampaşa Bilim Merkezi
     - LINUX (ubuntu, debian) (4/5)
     - Windows (5/5)
     - Mac OS (3/5)
----
+<br><br>
 
+---
+<br>
 **Projeler**
 ==
 **GR4V1TY – Unity – Takım Lideri**
@@ -175,7 +187,7 @@ Aralık 2019
 
 ---
 
-**Treasure&#39;s Curse – Unity – Takım Lideri**
+**Treasure's Curse – Unity – Takım Lideri**
 
 Platformer Mobile Game – Android
 
@@ -206,9 +218,10 @@ Mart 2017 – Haziran 2017
 Araştırma Fizik Projesi
 
 Eylül 2016 – Ağustos 2017
+<br><br>
 
 ---
-
+<br>
 **Ödüller**
 ===
 **Fikir Kampı – KOU Teknopark**
@@ -248,9 +261,10 @@ Bilgisayar Destekli Isı İletim Katsayısı Ölçüm Cihazı
 Bilgisayar Destekli Isı İletim Katsayısı Ölçüm Cihazı
 
 Üçüncülük 2017
+<br><br>
 
 ---
-
+<br>
 **Diller**
 ===
 - **İngilizce**
@@ -260,3 +274,4 @@ Bilgisayar Destekli Isı İletim Katsayısı Ölçüm Cihazı
 - **Türkçe**
 
     - Ana Dil
+				
