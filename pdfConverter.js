@@ -42,21 +42,27 @@ if (savedLocalFile) {
     loadFileInToTextarea(savedLocalFile);
 }
 const { jsPDF } = window.jspdf;
-console.log(window);
-const doc = new jsPDF();
-doc.setFontSize(22);
-//doc.text(markdownPreview.innerHTML, 10,10);
-console.log(doc.getFontList());
-doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal');
-doc.setFont('Roboto');
-function SavePdf(params) {
+
+console.log(markdownEditor.value);
+
+function createPDF() {
+    const doc = new jsPDF({
+      unit: "pt",
+      orientation: "p",
+      lineHeight: 1.2
+    });
+    doc.lineHeightProportion = 2;
+
+  
+    doc.addFont("Roboto-Medium.ttf", "Roboto", "normal");
+    doc.setFont("Roboto");
+    //doc.setFontType("normal");
+    doc.setFontSize(12);
     doc.html(markdownPreview.innerHTML,{
-        "width": 180,
+        'width': 170,
         callback: function (doc) {
-          doc.save('cv.pdf');
-        },
-        x: 10,
-        y: 10,
-    
-     });
-}
+                     doc.save("cv.pdf")
+                 }
+    });
+  }
+  
