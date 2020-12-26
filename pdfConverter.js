@@ -48,7 +48,7 @@ const doc = new jsPDF();
 console.log(doc.getFontList());
 doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal')
 doc.setFont('Roboto');
-doc.setFontSize(1);
+doc.setFontSize(8);
 function SavePdf(params) {
     doc.html(markdownPreview.innerHTML,{
         "width": 180,
