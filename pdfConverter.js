@@ -44,18 +44,16 @@ if (savedLocalFile) {
 const { jsPDF } = window.jspdf;
 console.log(window);
 const doc = new jsPDF();
+doc.setFontSize(22);
 //doc.text(markdownPreview.innerHTML, 10,10);
 console.log(doc.getFontList());
 doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal')
 doc.setFont('Roboto');
-doc.setFontSize(8);
 function SavePdf(params) {
     doc.html(markdownPreview.innerHTML,{
         "width": 180,
         callback: function (doc) {
-            // doc.addFileToVFS('Roboto-Regular.ttf', Roboto);
-            // doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal');
-          doc.save();
+          doc.save('cv.pdf');
         },
         x: 10,
         y: 10,
