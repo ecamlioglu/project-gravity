@@ -54,7 +54,7 @@ function createPDF() {
     doc.lineHeightProportion = 2;
 
   
-    doc.addFont("Roboto-Medium.ttf", "Roboto", "normal");
+    doc.addFont("./fonts/Roboto-Medium.ttf", "Roboto", "normal");
     doc.setFont("Roboto");
     //doc.setFontType("normal");
     doc.setFontSize(12);
