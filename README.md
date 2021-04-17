@@ -11,4 +11,4 @@ This project is a web design term project.
 
 I think this project does not have any copyrightable contents. If you think otherwise, please get in touch.
 
-Contact me directly = secamlioglu@gmail.com
+Contact me directly secamlioglu@gmail.com
